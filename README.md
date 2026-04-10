@@ -1,3 +1,5 @@
+Generated with Claude Sonet 4.6
+
 Examples:
   # Search by purl
   rl-spectra-assure search pkg:pypi/numpy@1.26.0
