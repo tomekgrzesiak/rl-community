@@ -1,4 +1,21 @@
-./main search pkg:npm/react@19.0.5
+Examples:
+  # Search by purl
+  rl-spectra-assure search pkg:pypi/numpy@1.26.0
+
+  # Search by SHA1
+  rl-spectra-assure search --sha1 d63932d669fe6da664b4183d8e1d5a33a9492b9f
+
+  # Search by SHA256
+  rl-spectra-assure search --sha256 94957715a483aa3b9db60c8f22d5498227d8025c407f982eef81e34f37574ffd
+
+  # Search by version glob pattern
+  rl-spectra-assure search pkg:pypi/numpy --match-pattern "1.26.*"
+
+  # Search by version expression
+  rl-spectra-assure search pkg:pypi/numpy --match-expression "<= 1.26.0
+
+  # In action
+  rl-spectra-assure search pkg:npm/react@19.0.5
 
 ```json
 {
