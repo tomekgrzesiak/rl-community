@@ -1,6 +1,6 @@
 ./main search pkg:npm/react@19.0.5
 
-
+```json
 {
   "community": {
     "packages": [
@@ -411,3 +411,4 @@
     ]
   }
 }
+```
