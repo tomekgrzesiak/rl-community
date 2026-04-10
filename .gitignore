@@ -1,0 +1,11 @@
+rl-spectra-assure
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+dist/
+rl-api-token.txt
